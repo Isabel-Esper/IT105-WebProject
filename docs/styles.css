@@ -1,1 +1,21 @@
-
+h1 {
+color:#bd8e63;
+font-family: serif;
+font-size: 80px;
+text-align-last: center;
+}
+h2 {
+    font-size: 40px;
+    text-indent: 50px;
+}
+h3 {font-size: 19px}
+h4 {font-size: 50px;
+color: #e8e4e4;
+text-align-last: center;
+}
+.center {
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+width: 95%
+height: auto}
