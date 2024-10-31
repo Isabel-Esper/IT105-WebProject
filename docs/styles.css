@@ -35,3 +35,48 @@ text-align-last: center;
     height: auto;
     margin-left: 25%;
     margin-top: 5%;}
+
+.container {
+    background-color: #ddc7b2;
+}
+.container .row div b {
+    font-size: 1.5em;
+    font-family: serif;
+    color: #bd8e63;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+.col-md-4 {
+    font-size: 1em;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.container .row div:nth-child(1) {
+    color: #333;
+    font-weight: bold;
+}
+.container {
+    max-width: 800px;
+    margin: 20 px auto;
+}
+.container .row:first-child div {
+    text-align: center; /* Center the text within the div */
+}
+
+.container .row:first-child div b {
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.container .row div:nth-child(2) {
+    padding-left: 40px; /* Indent second column */
+}
+
+.container .row div:nth-child(3) {
+    padding-left: 70px; /* Indent third column, more than the second */
+}
+.services-page {
+    background-color: #ddc7b2; 
+}
