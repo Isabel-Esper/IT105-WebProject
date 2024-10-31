@@ -1,0 +1,32 @@
+<SERVICES>
+    <SERVICE>
+        <SNAME>Childrens Indoor Climbing Lesson</SNAME>
+        <SCOMP>Childrens climbling lesson geared to learning climbing safety and basic techniques</SCOMP>
+        <SCATEGORY>Indoor</SCATEGORY>
+    </SERVICE>
+ <SERVICE>
+        <SNAME>Adult Indoor Climbing Lesson</SNAME>
+        <SCOMP>Adult climbing lesson geared to those with little to no climbing experience, to learn basic climbing techniques and safety procedures</SCOMP>
+        <SCATEGORY>Indoor</SCATEGORY>
+    </SERVICE>
+ <SERVICE>
+        <SNAME>Individual Outdoor Climbing (1 Hour Guide)</SNAME>
+        <SCOMP>Individual guided outdoor climbing geared to intermediate to advanced adult climbers </SCOMP>
+        <SCATEGORY>Outdoor</SCATEGORY>
+    </SERVICE>
+    <SERVICE>
+        <SNAME>Group Outdoor Climbing (1 Hour Guide)</SNAME>
+        <SCOMP>Group guided outdoor climbing geared to intermediate to advanced adult climbers </SCOMP>
+        <SCATEGORY>Outdoor</SCATEGORY>
+    </SERVICE>
+    <SERVICE>
+        <SNAME>Individual Outdoor Climbing (+1 Hour, additional fee for every 30 minutes)</SNAME>
+        <SCOMP>Individual guided outdoor climbing geared to intermediate to advanced adult climbers who would like the guide to continue more than an hour </SCOMP>
+        <SCATEGORY>Outdoor</SCATEGORY>
+    </SERVICE>
+     <SERVICE>
+        <SNAME>Group Outdoor Climbing (+1 Hour, additional fee for every 30 minutes)</SNAME>
+        <SCOMP>Group guided outdoor climbing geared to intermediate to advanced adult climbers who would like the guide to continue more than an hour </SCOMP>
+        <SCATEGORY>Outdoor</SCATEGORY>
+    </SERVICE>
+</SERVICES>
