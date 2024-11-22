@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             "adventurename": "New River Gorge",
             "adventuredate": "August 14, 2024",
-            "adventurephoto": "newrg.png",
+            "adventurephoto": "newriver.png",
             "customername": "Jon",
             "customerquote": "Righteous",
             "excurstionstmt": "Wild and Wonderful",
@@ -37,3 +37,24 @@ document.addEventListener("DOMContentLoaded", () => {
             "descriptionfile": "Finest climbing in southern New York. Enjoy the New Paltz area - history and local shops."
         }
     ];
+
+    const cardContainer = document.getElementById('adventure-cards');
+
+    adventures.forEach(adventure => {
+        const cardHTML = `
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/${adventure.adventurephoto}" class="card-img-top" alt="${adventure.adventurename}">
+                    <div class="card-body">
+                        <h5 class="card-title">${adventure.adventurename}</h5>
+                        <p class="card-text">${adventure.descriptionfile}</p>
+                        <p><strong>Date:</strong> ${adventure.adventuredate}</p>
+                        <p><strong>Customer:</strong> ${adventure.customername}</p>
+                        <p><em>"${adventure.customerquote}"</em></p>
+                    </div>
+                </div>
+            </div>
+        `;
+        cardContainer.innerHTML += cardHTML; // Append the card to the container
+    });
+});
