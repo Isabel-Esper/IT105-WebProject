@@ -43,11 +43,11 @@ rs +='  <div class="col-md-4"><b>Manufacturer</b></div>';
 rs +='  <div class="col-md-4"><b>Product Name</b></div>';
 rs +='  <div class="col-md-4"><b>Cost</b></div>';
 rs +=' </div>';
-for(i=0;i<mydata.length;i++) {
+for(i=0;i < mydata.length; i++) {
     rs += '<div class="row">';
-    rs += ' <div class="col-md-4">' + mydata[i].gear_manu + '</div';
-    rs += ' <div class="col-md-4">' + mydata[i].gear_name + '</div';
-    rs += ' <div class="col-md-4">' + mydata[i].gear_cost + '</div';
+    rs += '<div class="col-md-4">' + mydata[i].gear_manu + '</div';
+    rs += '<div class="col-md-4">' + mydata[i].gear_name + '</div';
+    rs += '<div class="col-md-4">' + mydata[i].gear_cost + '</div';
     rs += '</div>';
 }
     document.getElementById("recordset").innerHTML = rs;
