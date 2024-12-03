@@ -58,3 +58,10 @@ document.addEventListener("DOMContentLoaded", () => {
         cardContainer.innerHTML += cardHTML; // Append the card to the container
     });
 });
+fetch('http://158.101.118.50/data/gearlist.json')
+  .then(response => response.json())
+  .then(data => {
+    data.result.forEach((item) => {
+      document.body.innerHTML += '<br><a href="#">' + item + '</a>';
+    });
+ });
